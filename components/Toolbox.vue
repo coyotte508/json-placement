@@ -1,6 +1,5 @@
 <template>
   <v-card dark width="300" :class="['toolbox', vertical, horizontal]">
-    <v-card-title>Settings</v-card-title>
     <v-card-text>
       <v-row>
         <v-col>

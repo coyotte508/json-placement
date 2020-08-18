@@ -24,7 +24,7 @@ export default {
     return {
       title: 'Boardgame Data Generator',
       fixed: false
-    }
+    };
   }
-}
+};
 </script>
