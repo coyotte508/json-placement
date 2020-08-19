@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-center">
-      <svg style="background-color: white; height: calc(100vh - 72px)" :viewBox="`${-grid.width/2} ${-grid.height/2} ${grid.width} ${grid.height}`">
+      <svg id="scene" style="background-color: white; height: calc(100vh - 72px)" :viewBox="`${-grid.width/2} ${-grid.height/2} ${grid.width} ${grid.height}`">
         <line
           :x1="-grid.width/2"
           :x2="grid.width/2"
