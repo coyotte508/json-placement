@@ -25,6 +25,7 @@
         <v-card-title>New item</v-card-title>
         <v-card-text>
           <v-form ref="form" @submit.prevent="addNew">
+            <v-text-field v-model="newId" label="ID" required />
             <v-text-field v-model="newName" label="Name" required />
           </v-form>
         </v-card-text>
@@ -50,9 +51,11 @@ export default class extends Vue {
 
   showDialog = false;
   newName = '';
+  newId = '';
 
   newItem () {
     this.newName = '';
+    this.newId = '';
     this.showDialog = true;
   }
 
